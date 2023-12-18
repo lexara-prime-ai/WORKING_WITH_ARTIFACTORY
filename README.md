@@ -2,7 +2,7 @@
 * Downloading a **pre-built** wheel file
 ```powershell
 curl -sSf -H "X-JFrog-Art-Api:<YOUR_ARTIFACTORY_TOKEN>" \
-          -O 'https://cfa.jfrog.io/artifactory/pypi-internal/my-python-library/0.1.0/my-python-library-0.1.0-py3-none-any.whl'
+          -O 'https://your-organization.jfrog.io/artifactory/pypi-internal/my-python-library/0.1.0/my-python-library-0.1.0-py3-none-any.whl'
 ```
 
 * Using **wget**
